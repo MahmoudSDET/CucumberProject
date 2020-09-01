@@ -1,0 +1,7 @@
+GlueCode\GeneralStepDefinitions.class
+GlueCode\FacebookStepDefinitions.class
+pages\FacebookWelcomePage.class
+TestRunners\TestRunnerFacebook.class
+TestRunners\TestDefaultValues.class
+pages\FacebookLoginPage.class
+pages\BasicActions.class

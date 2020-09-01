@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Facebook]" verbose="0">
+  <parameter name="password" value="Jasecu12"/>
+  <parameter name="browser" value="Firefox"/>
+  <parameter name="link" value="http://www.facebook.com"/>
+  <parameter name="operatingSystem" value="Windows"/>
+  <parameter name="user" value="jasecuframework@gmail.com"/>
+  <test name="Facebook(failed)">
+    <classes>
+      <class name="TestRunners.TestRunnerFacebook">
+        <methods>
+          <include name="run_cukes"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- TestRunners.TestRunnerFacebook -->
+    </classes>
+  </test> <!-- Facebook(failed) -->
+</suite> <!-- Failed suite [Facebook] -->
